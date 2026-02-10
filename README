@@ -1,0 +1,40 @@
+# Entrada e Saída de dados (I/O) em Java
+
+> Bascicamente é a forma como seu programa recebe **informações
+(entrada)** e como ele mostra informações **(saída)**.
+
+---
+
+## 1) Saída 
+
+O Objeto **System.out** representa a saída padrão, permitindo exibir dados no console quando executamos uma aplicação em java. O System.out possui diversos métodos para gerar saídas, sendo mais utlizados os métodos **println**, **printf**, e **print.**
+
+## ✅ Método println()
+
+o método system.out.println() gera uma string de texto, cria uma nova linha abaixo da atual e então posiciona o cursor nesta linha.
+
+**Exemplos:**
+
+```
+System.out.println("O Inter vai sair campeão."); 
+System.out.println("Meu segundo println em java.")
+
+```
+## ✅ Método printf()
+
+o método System.out.printf() os dados na saída formatados. Um especificador de formato se inicio com o símbolo %, seguido um caractere que representa o tipo de dado.
+
+**Exemplos:**
+
+```
+Double numDecimal = 23.8954;
+int minhaIdade = 29;
+String meuNome = "Alan Patrick"
+char Inter = 'I'
+
+System.out.printf("Número = %.2f%n", numDecimal);
+System.out.printf("Minha idade = %.2d%n, minhaIdade);
+System.out.printf("Meu nome = %.2s%n, meuNome);
+System.out.printf("Primeira Letra = %C", Inter);
+
+```
