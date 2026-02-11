@@ -5,7 +5,7 @@
 
 ---
 
-## 1) Saída 
+## 1 Saída 
 
 O Objeto **System.out** representa a saída padrão, permitindo exibir dados no console quando executamos uma aplicação em java. O System.out possui diversos métodos para gerar saídas, sendo mais utlizados os métodos **println**, **printf**, e **print.**
 
@@ -38,3 +38,15 @@ System.out.printf("Meu nome = %.2s%n, meuNome);
 System.out.printf("Primeira Letra = %C", Inter);
 
 ```
+## ✅ Método print()
+
+o método **System.out.print()** gera uma string de texto, porém diferentemente do método println(), não cria uma nova linha abaixo da atual, deixando o cursor na mesma linha onde a string foi impressa.
+
+**Exemplos:**
+
+```
+System.out.print("O Inter vai sair campeão);
+System.out.print("E o Grêmio não!");
+
+```
+
